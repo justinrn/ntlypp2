@@ -1,0 +1,4857 @@
+{
+  "version": 1,
+  "remarks": "VLESS XHTTP SUB (Termux Generated)",
+  "outbounds": [
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 94.130.70.160 | Dante",
+      "server": "94.130.70.160",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 138.201.54.122 | Dante",
+      "server": "138.201.54.122",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 94.130.33.41 | Dante",
+      "server": "94.130.33.41",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 144.76.1.88 | Dante",
+      "server": "144.76.1.88",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 94.130.70.160 | Dante",
+      "server": "94.130.70.160",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 94.130.50.12 | Dante",
+      "server": "94.130.50.12",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 94.130.13.19 | Dante",
+      "server": "94.130.13.19",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 94.130.33.41 | Dante",
+      "server": "94.130.33.41",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 138.201.54.122 | Dante",
+      "server": "138.201.54.122",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 94.130.13.19 | Dante",
+      "server": "94.130.13.19",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 94.130.70.160 | Dante",
+      "server": "94.130.70.160",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 94.130.70.160 | Dante",
+      "server": "94.130.70.160",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 144.76.1.88 | Dante",
+      "server": "144.76.1.88",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 94.130.50.12 | Dante",
+      "server": "94.130.50.12",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 94.130.33.41 | Dante",
+      "server": "94.130.33.41",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 94.130.33.41 | Dante",
+      "server": "94.130.33.41",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 144.76.1.88 | Dante",
+      "server": "144.76.1.88",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 94.130.33.41 | Dante",
+      "server": "94.130.33.41",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 94.130.50.12 | Dante",
+      "server": "94.130.50.12",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 94.130.50.12 | Dante",
+      "server": "94.130.50.12",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 94.130.70.160 | Dante",
+      "server": "94.130.70.160",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 94.130.33.41 | Manp 2",
+      "server": "94.130.33.41",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 94.130.33.41 | Manp 2",
+      "server": "94.130.33.41",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 94.130.13.19 | Dante",
+      "server": "94.130.13.19",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 138.201.54.122 | Manp 2",
+      "server": "138.201.54.122",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 138.201.54.122 | Dante",
+      "server": "138.201.54.122",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 94.130.70.160 | Manp 2",
+      "server": "94.130.70.160",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 50.7.5.83 | Dante",
+      "server": "50.7.5.83",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 144.76.1.88 | Manp 2",
+      "server": "144.76.1.88",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 94.130.70.160 | Manp 2",
+      "server": "94.130.70.160",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 95.216.69.37 | Dante",
+      "server": "95.216.69.37",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 94.130.70.160 | Manp 1",
+      "server": "94.130.70.160",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 94.130.33.41 | Dante",
+      "server": "94.130.33.41",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 138.201.54.122 | Manp 1",
+      "server": "138.201.54.122",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 94.130.33.41 | Manp 2",
+      "server": "94.130.33.41",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 144.76.1.88 | Manp 2",
+      "server": "144.76.1.88",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 94.130.33.41 | Manp 1",
+      "server": "94.130.33.41",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 94.130.70.160 | Manp 1",
+      "server": "94.130.70.160",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 94.130.33.41 | Manp 2",
+      "server": "94.130.33.41",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 138.201.54.122 | Manp 2",
+      "server": "138.201.54.122",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 50.7.5.83 | Dante",
+      "server": "50.7.5.83",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 138.201.54.122 | Manp 2",
+      "server": "138.201.54.122",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 65.109.34.234 | Dante",
+      "server": "65.109.34.234",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 94.130.70.160 | Manp 2",
+      "server": "94.130.70.160",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 65.109.34.234 | Dante",
+      "server": "65.109.34.234",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 94.130.70.160 | Manp 1",
+      "server": "94.130.70.160",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 94.130.33.41 | Dante",
+      "server": "94.130.33.41",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 95.216.69.37 | Dante",
+      "server": "95.216.69.37",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 94.130.50.12 | Manp 2",
+      "server": "94.130.50.12",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 94.130.33.41 | Manp 1",
+      "server": "94.130.33.41",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 138.201.54.122 | Manp 1",
+      "server": "138.201.54.122",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 138.201.54.122 | Manp 2",
+      "server": "138.201.54.122",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 95.216.69.37 | Dante",
+      "server": "95.216.69.37",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 95.216.69.37 | Dante",
+      "server": "95.216.69.37",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 94.130.50.12 | Manp 1",
+      "server": "94.130.50.12",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 50.7.5.83 | Dante",
+      "server": "50.7.5.83",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 94.130.33.41 | Manp 1",
+      "server": "94.130.33.41",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 95.216.69.37 | Dante",
+      "server": "95.216.69.37",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 144.76.1.88 | Manp 1",
+      "server": "144.76.1.88",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 94.130.33.41 | Manp 1",
+      "server": "94.130.33.41",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 94.130.33.41 | Manp 2",
+      "server": "94.130.33.41",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 94.130.50.12 | Manp 2",
+      "server": "94.130.50.12",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 94.130.50.12 | Manp 2",
+      "server": "94.130.50.12",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 94.130.33.41 | Manp 2",
+      "server": "94.130.33.41",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 94.130.70.160 | Manp 2",
+      "server": "94.130.70.160",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 94.130.13.19 | Manp 1",
+      "server": "94.130.13.19",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 94.130.13.19 | Manp 1",
+      "server": "94.130.13.19",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 94.130.33.41 | Manp 2",
+      "server": "94.130.33.41",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 95.216.69.37 | Dante",
+      "server": "95.216.69.37",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 95.216.69.37 | Dante",
+      "server": "95.216.69.37",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 94.130.50.12 | Manp 1",
+      "server": "94.130.50.12",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 94.130.70.160 | Manp 2",
+      "server": "94.130.70.160",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 94.130.70.160 | Manp 1",
+      "server": "94.130.70.160",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 94.130.70.160 | Manp 1",
+      "server": "94.130.70.160",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 94.130.70.160 | Manp 2",
+      "server": "94.130.70.160",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 94.130.70.160 | Manp 2",
+      "server": "94.130.70.160",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 144.76.1.88 | Manp 2",
+      "server": "144.76.1.88",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 144.76.1.88 | Manp 1",
+      "server": "144.76.1.88",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 65.109.34.234 | Dante",
+      "server": "65.109.34.234",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 95.216.69.37 | Manp 2",
+      "server": "95.216.69.37",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 138.201.54.122 | Manp 2",
+      "server": "138.201.54.122",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 95.216.69.37 | Manp 2",
+      "server": "95.216.69.37",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 65.109.34.234 | Manp 2",
+      "server": "65.109.34.234",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 65.109.34.234 | Manp 2",
+      "server": "65.109.34.234",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 95.216.69.37 | Manp 1",
+      "server": "95.216.69.37",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 94.130.70.160 | Manp 1",
+      "server": "94.130.70.160",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 94.130.13.19 | Manp 2",
+      "server": "94.130.13.19",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 94.130.13.19 | Manp 2",
+      "server": "94.130.13.19",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 144.76.1.88 | Manp 1",
+      "server": "144.76.1.88",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 50.7.5.83 | Manp 1",
+      "server": "50.7.5.83",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 65.109.34.234 | Manp 2",
+      "server": "65.109.34.234",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 94.130.33.41 | Manp 1",
+      "server": "94.130.33.41",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 94.130.33.41 | Manp 1",
+      "server": "94.130.33.41",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 95.216.69.37 | Manp 1",
+      "server": "95.216.69.37",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 65.109.34.234 | Manp 1",
+      "server": "65.109.34.234",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 95.216.69.37 | Manp 2",
+      "server": "95.216.69.37",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 95.216.69.37 | Manp 1",
+      "server": "95.216.69.37",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 65.109.34.234 | Manp 2",
+      "server": "65.109.34.234",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 50.7.5.83 | Manp 2",
+      "server": "50.7.5.83",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 138.201.54.122 | Manp 2",
+      "server": "138.201.54.122",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 138.201.54.122 | Manp 1",
+      "server": "138.201.54.122",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 95.216.69.37 | Manp 1",
+      "server": "95.216.69.37",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 95.216.69.37 | Manp 1",
+      "server": "95.216.69.37",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 65.109.34.234 | Manp 1",
+      "server": "65.109.34.234",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 50.7.5.83 | Manp 1",
+      "server": "50.7.5.83",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 94.130.33.41 | Manp 1",
+      "server": "94.130.33.41",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 95.216.69.37 | Manp 1",
+      "server": "95.216.69.37",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 94.130.50.12 | Dante",
+      "server": "94.130.50.12",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 95.216.69.37 | Manp 1",
+      "server": "95.216.69.37",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 94.130.50.12 | Manp 1",
+      "server": "94.130.50.12",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 94.130.13.19 | Manp 1",
+      "server": "94.130.13.19",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 94.130.70.160 | Dante",
+      "server": "94.130.70.160",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 94.130.70.160 | Dante",
+      "server": "94.130.70.160",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 50.7.5.83 | Manp 2",
+      "server": "50.7.5.83",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 65.109.34.234 | Manp 2",
+      "server": "65.109.34.234",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 63.141.252.203 | Dante",
+      "server": "63.141.252.203",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 142.54.178.211 | Dante",
+      "server": "142.54.178.211",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 142.54.178.211 | Dante",
+      "server": "142.54.178.211",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 142.54.178.211 | Dante",
+      "server": "142.54.178.211",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 63.141.252.203 | Manp 1",
+      "server": "63.141.252.203",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 142.54.178.211 | Manp 1",
+      "server": "142.54.178.211",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 63.141.252.203 | Dante",
+      "server": "63.141.252.203",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 63.141.252.203 | Manp 1",
+      "server": "63.141.252.203",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 63.141.252.203 | Manp 2",
+      "server": "63.141.252.203",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 142.54.178.211 | Manp 1",
+      "server": "142.54.178.211",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 142.54.178.211 | Manp 1",
+      "server": "142.54.178.211",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 63.141.252.203 | Dante",
+      "server": "63.141.252.203",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 142.54.178.211 | Manp 2",
+      "server": "142.54.178.211",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 63.141.252.203 | Manp 2",
+      "server": "63.141.252.203",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 50.7.5.83 | Manp 1",
+      "server": "50.7.5.83",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 142.54.178.211 | Manp 2",
+      "server": "142.54.178.211",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kubernetes.io | 94.130.13.19 | Manp 2",
+      "server": "94.130.13.19",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kubernetes.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 94.130.70.160 | Manp 1",
+      "server": "94.130.70.160",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 65.109.34.234 | Manp 1",
+      "server": "65.109.34.234",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 50.7.5.83 | Manp 2",
+      "server": "50.7.5.83",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 142.54.178.211 | Manp 2",
+      "server": "142.54.178.211",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | vuejs.org | 63.141.252.203 | Manp 2",
+      "server": "63.141.252.203",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vuejs.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 138.201.54.122 | Manp 2",
+      "server": "138.201.54.122",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 65.109.34.234 | Manp 2",
+      "server": "65.109.34.234",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 65.109.34.234 | Dante",
+      "server": "65.109.34.234",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 63.141.252.203 | Dante",
+      "server": "63.141.252.203",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 50.7.5.83 | Dante",
+      "server": "50.7.5.83",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 142.54.178.211 | Dante",
+      "server": "142.54.178.211",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 144.76.1.88 | Dante",
+      "server": "144.76.1.88",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 138.201.54.122 | Dante",
+      "server": "138.201.54.122",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 94.130.13.19 | Dante",
+      "server": "94.130.13.19",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 65.109.34.234 | Dante",
+      "server": "65.109.34.234",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 63.141.252.203 | Dante",
+      "server": "63.141.252.203",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 50.7.5.83 | Dante",
+      "server": "50.7.5.83",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 142.54.178.211 | Dante",
+      "server": "142.54.178.211",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 144.76.1.88 | Dante",
+      "server": "144.76.1.88",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 138.201.54.122 | Dante",
+      "server": "138.201.54.122",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 94.130.13.19 | Dante",
+      "server": "94.130.13.19",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 65.109.34.234 | Dante",
+      "server": "65.109.34.234",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 63.141.252.203 | Dante",
+      "server": "63.141.252.203",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 94.130.50.12 | Dante",
+      "server": "94.130.50.12",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 50.7.5.83 | Dante",
+      "server": "50.7.5.83",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 142.54.178.211 | Dante",
+      "server": "142.54.178.211",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 144.76.1.88 | Dante",
+      "server": "144.76.1.88",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 138.201.54.122 | Dante",
+      "server": "138.201.54.122",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 94.130.13.19 | Dante",
+      "server": "94.130.13.19",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 65.109.34.234 | Dante",
+      "server": "65.109.34.234",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 63.141.252.203 | Dante",
+      "server": "63.141.252.203",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 94.130.50.12 | Dante",
+      "server": "94.130.50.12",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 50.7.5.83 | Dante",
+      "server": "50.7.5.83",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 142.54.178.211 | Dante",
+      "server": "142.54.178.211",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 144.76.1.88 | Dante",
+      "server": "144.76.1.88",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 138.201.54.122 | Dante",
+      "server": "138.201.54.122",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 94.130.13.19 | Dante",
+      "server": "94.130.13.19",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "http://212.74.39.210:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | jobset.sigs.k8s.io | 63.141.252.203 | Manp 1",
+      "server": "63.141.252.203",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobset.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 65.109.34.234 | Manp 1",
+      "server": "65.109.34.234",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 63.141.252.203 | Manp 1",
+      "server": "63.141.252.203",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 94.130.50.12 | Manp 1",
+      "server": "94.130.50.12",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 50.7.5.83 | Manp 1",
+      "server": "50.7.5.83",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 142.54.178.211 | Manp 1",
+      "server": "142.54.178.211",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 144.76.1.88 | Manp 1",
+      "server": "144.76.1.88",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 138.201.54.122 | Manp 1",
+      "server": "138.201.54.122",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 94.130.13.19 | Manp 1",
+      "server": "94.130.13.19",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 65.109.34.234 | Manp 1",
+      "server": "65.109.34.234",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 63.141.252.203 | Manp 1",
+      "server": "63.141.252.203",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 94.130.50.12 | Manp 1",
+      "server": "94.130.50.12",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 50.7.5.83 | Manp 1",
+      "server": "50.7.5.83",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 142.54.178.211 | Manp 1",
+      "server": "142.54.178.211",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 144.76.1.88 | Manp 1",
+      "server": "144.76.1.88",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 138.201.54.122 | Manp 1",
+      "server": "138.201.54.122",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 94.130.13.19 | Manp 1",
+      "server": "94.130.13.19",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 65.109.34.234 | Manp 1",
+      "server": "65.109.34.234",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 63.141.252.203 | Manp 1",
+      "server": "63.141.252.203",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 94.130.50.12 | Manp 1",
+      "server": "94.130.50.12",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 50.7.5.83 | Manp 1",
+      "server": "50.7.5.83",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 142.54.178.211 | Manp 1",
+      "server": "142.54.178.211",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 144.76.1.88 | Manp 1",
+      "server": "144.76.1.88",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 138.201.54.122 | Manp 1",
+      "server": "138.201.54.122",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 94.130.13.19 | Manp 1",
+      "server": "94.130.13.19",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 65.109.34.234 | Manp 1",
+      "server": "65.109.34.234",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 63.141.252.203 | Manp 1",
+      "server": "63.141.252.203",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 94.130.50.12 | Manp 1",
+      "server": "94.130.50.12",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 50.7.5.83 | Manp 1",
+      "server": "50.7.5.83",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 142.54.178.211 | Manp 1",
+      "server": "142.54.178.211",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 144.76.1.88 | Manp 1",
+      "server": "144.76.1.88",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 138.201.54.122 | Manp 1",
+      "server": "138.201.54.122",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 94.130.13.19 | Manp 1",
+      "server": "94.130.13.19",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 65.109.34.234 | Manp 2",
+      "server": "65.109.34.234",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 63.141.252.203 | Manp 2",
+      "server": "63.141.252.203",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 94.130.50.12 | Manp 2",
+      "server": "94.130.50.12",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 50.7.5.83 | Manp 2",
+      "server": "50.7.5.83",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 142.54.178.211 | Manp 2",
+      "server": "142.54.178.211",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 144.76.1.88 | Manp 2",
+      "server": "144.76.1.88",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 95.216.69.37 | Manp 2",
+      "server": "95.216.69.37",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | kind.sigs.k8s.io | 94.130.13.19 | Manp 2",
+      "server": "94.130.13.19",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kind.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 63.141.252.203 | Manp 2",
+      "server": "63.141.252.203",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 94.130.50.12 | Manp 2",
+      "server": "94.130.50.12",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 50.7.5.83 | Manp 2",
+      "server": "50.7.5.83",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 142.54.178.211 | Manp 2",
+      "server": "142.54.178.211",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 144.76.1.88 | Manp 2",
+      "server": "144.76.1.88",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 95.216.69.37 | Manp 2",
+      "server": "95.216.69.37",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | cluster-api.sigs.k8s.io | 94.130.13.19 | Manp 2",
+      "server": "94.130.13.19",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cluster-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 63.141.252.203 | Manp 2",
+      "server": "63.141.252.203",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 94.130.50.12 | Manp 2",
+      "server": "94.130.50.12",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 50.7.5.83 | Manp 2",
+      "server": "50.7.5.83",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 142.54.178.211 | Manp 2",
+      "server": "142.54.178.211",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 144.76.1.88 | Manp 2",
+      "server": "144.76.1.88",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 95.216.69.37 | Manp 2",
+      "server": "95.216.69.37",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | gateway-api.sigs.k8s.io | 94.130.13.19 | Manp 2",
+      "server": "94.130.13.19",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway-api.sigs.k8s.io",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 63.141.252.203 | Manp 2",
+      "server": "63.141.252.203",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 94.130.50.12 | Manp 2",
+      "server": "94.130.50.12",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 50.7.5.83 | Manp 2",
+      "server": "50.7.5.83",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 142.54.178.211 | Manp 2",
+      "server": "142.54.178.211",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 144.76.1.88 | Manp 2",
+      "server": "144.76.1.88",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 95.216.69.37 | Manp 2",
+      "server": "95.216.69.37",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🌐 @IR_NETLIFY | letsencrypt.org | 94.130.13.19 | Manp 2",
+      "server": "94.130.13.19",
+      "server_port": 443,
+      "uuid": "%40IR_NETLIFY",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "letsencrypt.org",
+        "insecure": true
+      },
+      "transport": {
+        "type": "xhttp",
+        "path": "/IR_NETLIFY",
+        "headers": {
+          "Host": "config.smjr-rn.ir",
+          "x-host": "107.161.174.122:444"
+        }
+      }
+    }
+  ]
+}
